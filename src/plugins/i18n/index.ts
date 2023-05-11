@@ -2,6 +2,7 @@ import type { App } from 'vue';
 import { createI18n } from 'vue-i18n';
 import zhCn from '@/languages/zh-cn.json';
 import en from '@/languages/en.json';
+// import { useConfigStore } from '@/stores/config';
 import { useConfigStore } from '@/stores/config';
 
 const messages = {

@@ -172,3 +172,15 @@ npm install --save-dev @types/node
   "exclude": ["node_modules"],
   "paths": { "@/*": ["src/*"] },
 ```
+
+# Icon使用方式
+> 因已在vite.config.ts設置自動導入,
+> 故使用時毋須再次人工引入
+> icon名稱组成：{prefix}-{collection}-{icon}
+> 參考: https://juejin.cn/post/7169485227188813860
+
+使用方式:
+```javascript
+<i-ep-edit />
+<IEpEdit />
+```

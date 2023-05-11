@@ -1,19 +1,14 @@
 import './entry';
 import { createApp } from 'vue';
-import ElementPlus from 'element-plus';
-// pinia
-import store from '@/stores/index';
-// I18n
-import i18n from '@/plugins/i18n';
+import store from './stores';
+import i18n from './plugins/i18n';
+import router from './router';
 import App from './App.vue';
-import router from './router/index';
-// UI Import
 import 'element-plus/dist/index.css';
 
 const app = createApp(App)
   .use(store)
   .use(router)
-  .use(i18n)
-  .use(ElementPlus);
+  .use(i18n);
 
 app.mount('#app');

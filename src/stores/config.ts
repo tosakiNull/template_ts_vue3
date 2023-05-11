@@ -1,4 +1,5 @@
 import { acceptHMRUpdate, defineStore } from 'pinia';
+// import versionNumber from '@/env/version.json';
 import versionNumber from '@/env/version.json';
 import * as siteConfigDev from '@/env/dev';
 import * as siteConfigProd from '@/env/prod';
